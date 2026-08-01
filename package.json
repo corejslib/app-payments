@@ -1,0 +1,39 @@
+{
+    "name": "@corejslib/app-payments",
+    "version": "0.0.0",
+    "description": "Application payments component",
+    "keywords": [
+        "payments"
+    ],
+    "homepage": "https://corejslib.github.io/app-payments/",
+    "bugs": {
+        "url": "https://github.com/corejslib/app-payments/issues",
+        "email": "root <root@softvisio.net>"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/corejslib/app-payments.git"
+    },
+    "license": "ISC",
+    "author": "root <root@softvisio.net>",
+    "type": "module",
+    "imports": {
+        "#core/*": "@corejslib/core/*",
+        "#lib/*": "./lib/*.js",
+        "#resources/*": "./resources/*"
+    },
+    "exports": {
+        "./*": "./lib/*.js",
+        "./app.yaml": "./lib/app.yaml",
+        "./resources/*": "./resources/*"
+    },
+    "files": [
+        "/bin",
+        "/lib",
+        "/resources",
+        "/src"
+    ],
+    "peerDependencies": {
+        "@corejslib/core": "^8.0.0"
+    }
+}

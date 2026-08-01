@@ -1,0 +1,8 @@
+dependencies:
+  - dbh
+
+optionalDependencies:
+  - cluster
+  - services
+
+config: ~

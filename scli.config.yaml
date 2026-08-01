@@ -1,0 +1,8 @@
+release:
+  enabled: false
+
+docs:
+  location: /docs
+
+  externalTypes:
+    - corejslib/result
