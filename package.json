@@ -33,6 +33,9 @@
         "/resources",
         "/src"
     ],
+    "dependencies": {
+        "tronweb": "^6.4.0"
+    },
     "peerDependencies": {
         "@corejslib/core": "^8.0.0"
     }
