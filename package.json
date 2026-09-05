@@ -34,6 +34,8 @@
         "/src"
     ],
     "dependencies": {
+        "@scure/bip32": "^2.4.0",
+        "bip39": "^3.1.0",
         "tronweb": "^6.4.0"
     },
     "peerDependencies": {
